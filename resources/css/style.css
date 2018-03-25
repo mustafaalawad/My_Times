@@ -1,0 +1,224 @@
+body {
+  margin: 0;
+  padding:0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+}
+nav a {
+ color: black;
+}
+
+#main-header {
+  margin: 20px 20px 0 20px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.container {
+  background-color: #ffffff;
+  min-width: 720px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.one {
+  //border: 1px solid black;
+  //flex-grow:1;
+  flex-shrink: 1;
+}
+.two {
+  //border: 1px solid black;
+  flex-grow:7;
+  color:MediumAquamarine;
+  margin-left:20px;
+  font-size:12px;
+  padding-top: 5px;
+  flex-shrink: 100;
+}
+.three {
+  //border: 1px solid black;
+  flex-grow:4;
+  word-spacing: 30px;
+  margin-left: 45em;
+  padding-top: 9px;
+  flex-shrink: 1;
+  text-align: center;
+}
+/*---------  MAIN NEWS------------------*/
+img {
+  width: 100%;
+  height:100%;
+}
+
+#main-news {
+  /border: 2px solid #E91E63;
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 20px;
+}
+
+.column {
+ /border: 1px solid #8BC34A;
+ / background-color: #2196F3;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
+}
+.column.large {
+ / background-color: #575b5e;
+  width: 630px;
+}
+.large {
+ /border: 10px solid #d5d902;
+}
+.stories {
+  /border: 3px solid #c3007b;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.stories .story-orca {
+  height: 250px;
+}
+.stories .story-burger {
+  height: 250px;
+}
+
+/* THE MIDDLE ONE */
+.fbi {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.medium {
+  /border: 1px solid black;
+  width: 300px;
+}
+.cookies {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin-top: 50px;
+}
+.small {
+  /border: 1px solid black;
+  width: 240px;
+}
+.new-bites {
+  font-size: 16px;
+  font-weight: bold;
+  text-align:center;
+
+}
+.bites-container {
+  text-align:left;
+  display: flex;
+  flex-direction: column;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+span {
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+}
+
+/*IMAGES SECTION*/
+
+ h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.col-mother {
+  background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png') ;
+  height: 300px;
+font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+.col-earth {
+  background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png')no-repeat ;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.col-show {
+  background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png') no-repeat;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  flex-wrap:wrap;
+}
+.secound-fbi {
+  background: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png') no-repeat;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.primary-text {
+  padding-top: 70px;
+}
+.primary-text.moth {
+  margin-left: 20px;
+}
+/*FOOTEER*/
+
+#main-footer {
+text-align:center;
+background-color: MediumAquamarine;
+margin: auto;
+font-family: Verdana;
+font-size: 12px;
+padding: 80px 0 ;
+}
+.footer-container {
+ display:flex;
+ justify-content: center;
+}
+.my-times {
+  /border:1px solid black;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  align-self: center;
+}
+.navfooter {
+/border:1px solid black;
+  padding: 15px 0 0 0;
+  word-spacing: 20px;
+
+}
+.copyright {
+  margin-top: -10px
+}
